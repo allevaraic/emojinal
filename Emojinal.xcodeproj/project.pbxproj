@@ -12,7 +12,6 @@
 		18413A7C22D7F2BF00C9C115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18413A7A22D7F2BF00C9C115 /* Main.storyboard */; };
 		18413A7E22D7F2C100C9C115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18413A7D22D7F2C100C9C115 /* Assets.xcassets */; };
 		18413A8122D7F2C100C9C115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18413A7F22D7F2C100C9C115 /* LaunchScreen.storyboard */; };
-		18413A8922D7FD2100C9C115 /* Emojinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18413A8822D7FD2100C9C115 /* Emojinal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		18413A7D22D7F2C100C9C115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18413A8022D7F2C100C9C115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18413A8222D7F2C100C9C115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18413A8822D7FD2100C9C115 /* Emojinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Emojinal.swift; path = ../../../Desktop/Emojinal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +38,6 @@
 		18413A6A22D7F2BF00C9C115 = {
 			isa = PBXGroup;
 			children = (
-				18413A8822D7FD2100C9C115 /* Emojinal.swift */,
 				18413A7522D7F2BF00C9C115 /* Emojinal */,
 				18413A7422D7F2BF00C9C115 /* Products */,
 			);
@@ -139,7 +136,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18413A7922D7F2BF00C9C115 /* ViewController.swift in Sources */,
-				18413A8922D7FD2100C9C115 /* Emojinal.swift in Sources */,
 				18413A7722D7F2BF00C9C115 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQJAM42RYZ;
 				INFOPLIST_FILE = Emojinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JQJAM42RYZ;
 				INFOPLIST_FILE = Emojinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

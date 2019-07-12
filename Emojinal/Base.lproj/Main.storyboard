@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,40 +15,77 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Emojinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KRw-d4-b7G">
-                                <rect key="frame" x="54" y="104" width="307" height="305"/>
+                                <rect key="frame" x="117.5" y="109" width="140" height="166"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="KRw-d4-b7G" secondAttribute="height" multiplier="307:305" id="WaF-rm-Lpa"/>
+                                    <constraint firstAttribute="width" secondItem="KRw-d4-b7G" secondAttribute="height" multiplier="70:83" id="CJI-7J-cK7"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="231"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="129"/>
                                 <state key="normal" title="😃"/>
                                 <connections>
                                     <action selector="happyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jfR-2y-Rj0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zad-fC-vUe">
-                                <rect key="frame" x="82" y="457" width="251" height="288"/>
+                                <rect key="frame" x="116" y="356" width="143" height="166.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Zad-fC-vUe" secondAttribute="height" multiplier="251:288" id="6xA-rl-ELB"/>
+                                    <constraint firstAttribute="width" secondItem="Zad-fC-vUe" secondAttribute="height" multiplier="140:163" id="453-w1-cQ8"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="231"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="129"/>
                                 <state key="normal" title="🥺"/>
                                 <connections>
                                     <action selector="sadButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7cD-Ow-m7H"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emojional Movies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TBb-3G-J4A">
+                                <rect key="frame" x="88" y="64" width="199" height="48"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TBb-3G-J4A" secondAttribute="height" multiplier="199:48" id="U88-Br-gu3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
+                                <color key="textColor" red="0.082276932895183563" green="0.32541066408157349" blue="0.36917299032211304" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap for happy movie!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RvV-Fa-ffX">
+                                <rect key="frame" x="121.5" y="247" width="132" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RvV-Fa-ffX" secondAttribute="height" multiplier="33:7" id="hKb-ja-sqz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                                <color key="textColor" red="0.082276932895183563" green="0.32541066408157349" blue="0.36917299032211304" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap for sad movie..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7j-3t-MMs">
+                                <rect key="frame" x="126.5" y="501" width="122" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="j7j-3t-MMs" secondAttribute="height" multiplier="61:14" id="BCL-UX-X85"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="17"/>
+                                <color key="textColor" red="0.082276932895183563" green="0.32541066408157349" blue="0.36917299032211304" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.96858876943588257" green="0.89162379503250122" blue="0.88877648115158081" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Zad-fC-vUe" firstAttribute="top" secondItem="KRw-d4-b7G" secondAttribute="bottom" constant="48" id="0ec-lM-Eay"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zad-fC-vUe" secondAttribute="trailing" constant="81" id="XJy-cZ-Axc"/>
-                            <constraint firstItem="KRw-d4-b7G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="i7k-UR-7vV"/>
-                            <constraint firstItem="Zad-fC-vUe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="oja-xu-NAf"/>
-                            <constraint firstItem="KRw-d4-b7G" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="rjj-ch-iR4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KRw-d4-b7G" secondAttribute="trailing" constant="53" id="skh-Nj-yHC"/>
+                            <constraint firstItem="j7j-3t-MMs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5My-iN-nfo"/>
+                            <constraint firstItem="TBb-3G-J4A" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="EjD-pu-efx"/>
+                            <constraint firstItem="RvV-Fa-ffX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G3s-L2-sS9"/>
+                            <constraint firstItem="KRw-d4-b7G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ju3-Pw-QoV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KRw-d4-b7G" secondAttribute="trailing" constant="117.5" id="O2n-d0-m0A"/>
+                            <constraint firstItem="TBb-3G-J4A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OL3-ze-Van"/>
+                            <constraint firstItem="Zad-fC-vUe" firstAttribute="top" secondItem="KRw-d4-b7G" secondAttribute="bottom" constant="81" id="PNr-QD-kfq"/>
+                            <constraint firstItem="KRw-d4-b7G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117.5" id="SXr-k7-I27"/>
+                            <constraint firstItem="Zad-fC-vUe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="116" id="bD2-2g-JcG"/>
+                            <constraint firstItem="TBb-3G-J4A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e0H-HW-uIR"/>
+                            <constraint firstItem="j7j-3t-MMs" firstAttribute="top" secondItem="Zad-fC-vUe" secondAttribute="bottom" constant="-21.5" id="eA4-VM-rk5"/>
+                            <constraint firstItem="KRw-d4-b7G" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="89" id="jyt-c5-wAM"/>
+                            <constraint firstItem="RvV-Fa-ffX" firstAttribute="top" secondItem="KRw-d4-b7G" secondAttribute="bottom" constant="-28" id="kSF-gf-8LW"/>
+                            <constraint firstItem="Zad-fC-vUe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qaD-Xd-5Gs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zad-fC-vUe" secondAttribute="trailing" constant="116" id="tv0-ot-gk8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
